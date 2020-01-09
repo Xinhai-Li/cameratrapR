@@ -1,0 +1,1 @@
+The camera trap data (trapresult) were derived from the camera trapping survey in 2013 at Changbaishan National Nature Reserve in Northeast China. The survey duration was 28 days. The dataset only have the records of wild boar. The owner of data is Dr. Zhishu Xiao (xiaozs@ioz.ac.cn).
