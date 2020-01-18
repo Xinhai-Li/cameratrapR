@@ -37,7 +37,7 @@ plotCamtrap = function(x, circle.size=.2, point.scatter=5){
   dates = as.numeric(as.Date(X$Date, origin = "1900-01-01"))
   points(jitter(X$Lon, factor=point.scatter), jitter(X$Lat, factor=point.scatter),
          pch = 1, cex=1, col = colorRampPalette(c("red", "yellow", "green"))(length(dates))[round(rank(dates))])
-  points(x$Lon, x$Lat, cex=.5)
+  # points(x$Lon, x$Lat, cex=.5)
 }
 #############################################################################################################################
 
