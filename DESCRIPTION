@@ -1,4 +1,4 @@
-Package: Rcameratrap
+Package: cameratrapR
 Title:  Estimate animal abundance based on the number of pictures taken by camera traps
 Version: 0.0.0.9000
 Authors@R: 
