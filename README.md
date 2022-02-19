@@ -6,3 +6,5 @@ Camera trapping is widely used in wildlife survey, yet methods for estimating po
 Reference
 
 Li, X., Tian, H., Piao, Z., Wang, G., Xiao, Z., Sun, Y., Gao, E., Holyoak, M., 2022. cameratrapR: An R package for estimating animal density using camera trapping data. Ecological Informatics 69, 101597.
+
+https://doi.org/10.1016/j.ecoinf.2022.101597
