@@ -1,0 +1,15 @@
+Package: cameratrapR
+Title: Estimate wildlife density by movement simulation using camera trap data
+Version: 0.0.1
+Authors@R: c(
+    person("Xinhai", "Li", role = c("aut", "cre"), email = "Xinhai_Li_edu@126.com", comment = c(ORCID = "0000-0003-4514-0149")),
+    person("Huidong", "Tian", role = c("aut"), email ="tienhuitung@gmail.com")
+           )
+Description: This package estimates wildlife population density by simulating individual animal movements within a camera trap grid, where simulated animals followed a correlated random walk informed by empirical movement data¡ªspecifically step length, angular deflection, total movement distance, and home-range size. Movements were generated across a range of population densities, and a Random Forest algorithm was used to identify the density most likely to reproduce the observed camera trap detections. This package enables researchers to simulate movement, estimate density, and visualize results for species that cannot be individually identified, provided cameras are deployed in a grid. Compared to line transect surveys and the Random Encounter Model, cameratrapR delivers more reliable density estimates with narrower confidence intervals, and includes functions to derive movement parameters, plot simulated paths, and summarize camera trapping outcomes.
+License: `use_mit_license()`, `use_gpl3_license()` 
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Depends: 
+    R (>= 3.5)
+LazyData: true
